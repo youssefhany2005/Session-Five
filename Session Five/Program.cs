@@ -1,5 +1,6 @@
 ﻿using System.Globalization;
 using System.Runtime.Intrinsics.Arm;
+using System.Text;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Session_Five
@@ -144,6 +145,24 @@ namespace Session_Five
             //Console.WriteLine(message.Substring(4,5)); // 17
             //Console.WriteLine(message.Replace('e','T')); // 17
             //Console.WriteLine(message.Contains('f')); // 17
+            #endregion
+
+            //V-06
+            #region String Builder
+
+            //StringBuilder Messgae;
+
+            //Messgae= new StringBuilder("Hello");
+
+            //Console.WriteLine($"Message = {Messgae}");
+            //Console.WriteLine($"Message Hashcode = {Messgae.GetHashCode()}");
+
+            //Messgae.Append(" Route");
+
+            //Console.WriteLine("After Change");
+            //Console.WriteLine($"Message = {Messgae}");
+            //Console.WriteLine($"Message Hashcode = {Messgae.GetHashCode()}");
+
             #endregion
 
             #endregion
