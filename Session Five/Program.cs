@@ -132,6 +132,20 @@ namespace Session_Five
             //Console.WriteLine($"HashCode of message = {message.GetHashCode()}");
             #endregion
 
+            //V-05
+            #region String Methods
+            //string message = "Hello Route"; //size => 17
+            //Console.WriteLine(message.Length); // 17
+            //Console.WriteLine(message.ToUpper()); // 17
+            //Console.WriteLine(message.ToLower()); // 17
+            //Console.WriteLine(message.Trim()); // 17
+            //Console.WriteLine(message.TrimEnd()); // 17
+            //Console.WriteLine(message.TrimStart()); // 17
+            //Console.WriteLine(message.Substring(4,5)); // 17
+            //Console.WriteLine(message.Replace('e','T')); // 17
+            //Console.WriteLine(message.Contains('f')); // 17
+            #endregion
+
             #endregion
         }
     }
