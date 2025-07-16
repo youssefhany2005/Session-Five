@@ -1,4 +1,5 @@
 ﻿using System.Globalization;
+using System.Runtime.Intrinsics.Arm;
 
 namespace Session_Five
 {
@@ -23,7 +24,7 @@ namespace Session_Five
             //if(int==2)
             //Continue
             //break;
-           // Numbers[i] += 10;
+            // Numbers[i] += 10;
             //    Console.WriteLine($"Number {i} is {Numbers[i]}");
             //}
 
@@ -32,6 +33,24 @@ namespace Session_Five
             //    //item += 10;
             //    Console.WriteLine(item);
             //}
+            #endregion
+            #endregion
+            //V-02
+            #region while - do while
+            #region do-while
+            //bool IsParse;
+            //int number;
+
+            //do
+            //{
+            //    Console.WriteLine("Enter Even Number");
+            //    IsParse = int.TryParse(Console.ReadLine(), out number);
+            //} while (number % 2 == 1 || IsParse);
+
+            //3%2=1 odd 
+            //5%2=1 odd
+            //7%2=1 odd
+            //8%2=0 even
             #endregion
             #endregion
         }
