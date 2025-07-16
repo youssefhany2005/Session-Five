@@ -1,5 +1,6 @@
 ﻿using System.Globalization;
 using System.Runtime.Intrinsics.Arm;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Session_Five
 {
@@ -34,7 +35,6 @@ namespace Session_Five
             //    Console.WriteLine(item);
             //}
             #endregion
-            #endregion
             //V-02
             #region while - do while
             #region do-while
@@ -52,7 +52,27 @@ namespace Session_Five
             //7%2=1 odd
             //8%2=0 even
             #endregion
+            // V-03
+            #region while
+
+            //Console.WriteLine("Enter a number");
+            //bool IsParse = int.TryParse(Console.ReadLine(), out int number);
+            //2-10
+            //5-10
+            //12
+
+            //if (IsParse)
+            //{
+            //    while (number <= 10) /* IsParse == true*/
+            //    {
+            //        Console.WriteLine(number);
+            //        number++;
+            //    }
+            //}
             #endregion
+            #endregion
+            #endregion
+
         }
     }
 }
